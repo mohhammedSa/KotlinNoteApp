@@ -3,7 +3,7 @@ import javax.swing.*
 
 fun main() {
     lookAndFeel()
-    SwingUtilities.invokeLater { Note() }
+    Note()
 }
 
 fun lookAndFeel() {
